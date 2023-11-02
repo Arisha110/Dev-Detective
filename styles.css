@@ -1,0 +1,44 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Space+Grotesk:wght@400;500&family=Stint+Ultra+Condensed&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+:root{
+    --palewhite:  #e9f7ff;
+    --white:  #ffffff;
+    --fontcolor:  #636363;
+}
+.wrapper{
+    background-color: var(--palewhite);
+    height: 100vh;
+    color: var(--fontcolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    /* position: fixed; */
+    display: flex;
+    gap: 6rem;
+}
+.mode{
+    display: flex;
+    width: 8rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.form{
+    width: 50%;
+    background: white;
+}
+.form input{
+    all: unset;
+    width: full;
+    position: relative;
+}
